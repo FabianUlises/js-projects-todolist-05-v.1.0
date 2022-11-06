@@ -99,10 +99,12 @@ input:focus {
     justify-content: space-between;
     box-shadow: 5px 5px 5px rgba(87, 87, 87, 0.63),5px 5px 5px rgba(87, 87, 87, 0.63), -5px -5px 2px white, -5px -5px 5px white;
     background: whitesmoke;
-    transition: all 100ms ease-in;
+    transition: background 100ms ease-in,
+                transform 100ms ease-in,
+                box-shadow 100ms ease-in;
     font-size: 22px;
 }
-.task:hover {
+.todo:hover {
     cursor: pointer;
     transform: scale(1);
     box-shadow: 3px 3px 3px rgba(87, 87, 87, 0.43),3px 3px 3px rgba(87, 87, 87, 0.55), -7px -7px 2px #ffffffa3, -7px -7px 3px #ffffffb3;
